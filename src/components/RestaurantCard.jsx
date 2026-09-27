@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Star, MapPin, Utensils, ArrowRight, Calendar } from 'lucide-react';
+import { MapPin, Calendar } from 'lucide-react';
 
 export default function RestaurantCard({ restaurant }) {
   if (!restaurant) return null;
@@ -14,13 +14,6 @@ export default function RestaurantCard({ restaurant }) {
           className="card-image"
           loading="lazy"
         />
-        <div className="card-rating-badge">
-          <Star size={14} className="star-icon" fill="currentColor" />
-          <span>{Number(restaurant.rating).toFixed(1)}</span>
-        </div>
-        <div className="card-cuisine-tag">
-          {restaurant.cuisine}
-        </div>
       </div>
 
       <div className="card-content">

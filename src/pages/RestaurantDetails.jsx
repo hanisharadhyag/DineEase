@@ -79,13 +79,6 @@ export default function RestaurantDetails() {
             alt={restaurant.name} 
             className="details-image"
           />
-          <div className="details-badge-group">
-            <span className="cuisine-badge">{restaurant.cuisine}</span>
-            <div className="rating-badge-large">
-              <Star size={16} fill="currentColor" />
-              <span>{Number(restaurant.rating).toFixed(1)} / 5.0</span>
-            </div>
-          </div>
         </div>
 
         {/* Restaurant Information Content */}
