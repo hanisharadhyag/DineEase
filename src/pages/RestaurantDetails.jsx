@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { supabase } from '../supabase';
+import { supabase } from '../supabase/supabase';
 import { Star, MapPin, Utensils, Calendar, ArrowLeft, Clock, Users, ShieldCheck } from 'lucide-react';
 
 export default function RestaurantDetails() {

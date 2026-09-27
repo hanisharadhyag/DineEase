@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { supabase } from '../supabase';
+import { supabase } from '../supabase/supabase';
 import RestaurantCard from '../components/RestaurantCard';
 import { Utensils } from 'lucide-react';
 

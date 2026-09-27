@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { supabase } from '../supabase';
+import { supabase } from '../supabase/supabase';
 import RestaurantCard from '../components/RestaurantCard';
 import { Utensils, CalendarCheck, Smile, ArrowRight, Sparkles } from 'lucide-react';
 
